@@ -31,8 +31,8 @@ const DIRECT_THINKING_LEVEL = "low";
 const BELOW_DIRECT_LEVELS = new Set(["off", "minimal"]);
 
 /** 与 ~/.pi/agent/models.json 中 sk-llama/qwen3.8-27b 保持一致 */
-const CONTEXT_WINDOW = 107776;
-const MAX_TOKENS = 107776;
+const CONTEXT_WINDOW = 131840;
+const MAX_TOKENS = 131840;
 
 /**
  * 决定一次请求的 thinking level。
